@@ -1,0 +1,108 @@
+body { 
+    font-family:'Prompt', sans-serif ;
+    background-color: #E1E1E1;
+    display: flex;
+    flex-direction: column; 
+    margin: 5em 18em 5em 18em; 
+}
+
+section { 
+    /*display: flex;
+    flex-direction: column;*/
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about {
+    display:flex;
+    flex-direction: column;
+    padding-inline: 1em;
+}
+
+.berners { display: flex;
+    align-self: center;
+    margin-top: 1em;
+    width: 20%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #8E8B8B;
+   
+}
+
+h1{ display: flex;
+    align-self: center;
+    font-weight: bolder;
+    color: crimson;  
+}
+
+h2 { display: flex;
+    align-self: center;
+    font-size: large;
+}
+
+h3 {
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+}
+
+p {
+    margin-inline:1em;
+}
+
+.seeforyourself { 
+    margin-inline: 13em;
+    margin-bottom: 1em;
+    background-color:  crimson;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0.5em; 
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0%;
+    opacity: 50%;
+}
+li{ 
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration:none;
+}
+
+.movies { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.movieimg {
+    width: 15%;
+}
+
+figcaption {
+    padding-left: 1em;
+    font-size: smaller;
+}
+
+.spaceodissey{ 
+    display: flex;
+}
+
+.hulot {
+    display:flex;
+}
+
+.alien {
+    display:flex;
+}
+
+.titre { display: flex;
+        justify-content: space-evenly;
+        font-weight: bold;
+    }
